@@ -43,4 +43,4 @@ admin.add_view(ModelView(Genre, db.session))
 admin.add_view(ModelView(Actor, db.session))
 
 if __name__=='__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5004)
